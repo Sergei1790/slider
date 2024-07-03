@@ -3,6 +3,7 @@ let slideIndex = 0;
 let intervalId = null;
 
 document.addEventListener('DOMContentLoaded', initializeSlider)
+
 function initializeSlider(){
     if(slides.length > 0){
         slides[slideIndex].classList.add('displaySlide');
